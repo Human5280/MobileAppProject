@@ -9,6 +9,6 @@ data.paths.forEach(path => {
   pathElement.innerHTML = '
     <h2>${path.Title_en}</h2>
     <p><strong>Distance:</strong> ${path.Route_en}</p>
-  ;'
+  ' ;
   pathsContainer.appendChild(pathElement);
 });
